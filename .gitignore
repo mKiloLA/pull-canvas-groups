@@ -1,0 +1,7 @@
+config.toml
+.venv
+poetry.lock
+build
+dist
+CanvasGroupData.spec
+__pycache__

@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "me575"
+version = "0.1.0"
+description = "Get groups in senior design 2"
+authors = ["Zak Oster <zc9oster@me.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "<3.13,>=3.9"
+canvasapi = "^3.2.0"
+pandas = "^2.1.1"
+openpyxl = "^3.1.2"
+pyinstaller = "^6.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
